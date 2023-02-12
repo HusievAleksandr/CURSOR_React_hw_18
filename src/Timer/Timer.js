@@ -32,6 +32,8 @@ useEffect(()=>{
 
         },[time, autostart]);
 
+useEffect(()=>{setTime(props)},[props])
+
        
     return (
         <div>
