@@ -1,0 +1,29 @@
+button { 
+    width: 150px;
+    height: 80px;
+    margin: 0 10px;
+    cursor: pointer;
+    font-size: 24px;
+    border-radius: 0.25rem;
+    color: rgb(150, 105, 235);    
+    background-clip: padding-box;
+    border: 1px solid rgb(36, 1, 68);
+    background-color: rgb(34, 6, 87);
+    border-bottom: 5px solid rgb(36, 1, 68); 
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;    
+    }
+
+    button:hover {
+        background-color: #ff6;          
+        color: rgb(17, 17, 17);
+        border-color: rgb(112, 112, 4);
+      }
+      
+      button:active {
+        border: none;
+      }
+
+span {
+    font-size: 108px;
+    font-family: 'Teko', sans-serif;    
+}
