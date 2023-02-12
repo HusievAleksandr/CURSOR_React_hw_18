@@ -20,10 +20,20 @@ button {
       }
       
       button:active {
-        border: none;
+        border: none;       
       }
 
 span {
     font-size: 108px;
     font-family: 'Teko', sans-serif;    
+}
+
+.timerBar{
+  position: absolute;
+  left: 0px;
+  bottom: 0px;
+  width: 100%;
+  background-color: #ff6;
+
+
 }

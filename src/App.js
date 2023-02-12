@@ -13,7 +13,7 @@ const inputMinutes = useRef(),
       [startTime, setStartTime] = useState(0),
       [stepInterval, setStepInterval] = useState(1),
 
-      onChangeTime = ()=> { console.log(inputInterval.current.value);  
+      onChangeTime = ()=> { 
                       setStartTime(Number(inputSeconds.current.value )+
                                   Number(inputMinutes.current.value * 60))},
       onChangeInterval =()=>{
