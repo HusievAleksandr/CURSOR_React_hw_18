@@ -26,7 +26,7 @@ const inputMinutes = useRef(),
       <header className="App-header">
 
           <div className='header_main'>
-
+            <h2>SET COUNTER PARAMETERS:</h2>
             <div>
               <label >Minutes</label>
               <input  onChange={onChangeTime} ref ={inputMinutes} type="number" min="1" max="60"  ></input>
