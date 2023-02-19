@@ -13,7 +13,7 @@ const   [time, setTime] =useState(props),
         seconds = getCorrectTime(Math.floor(time-minutes*60));
 
 const   buttonStart = ()=>{  setAutostart(true);
-                                 setTime(props); 
+                                 setTime(time); 
                 console.log("Таймер запущено!")},
 
         buttonPause = ()=>{  setAutostart(false)
